@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Food2ForkRecipes</string>
+    <string name="loading_recipes">Loading recipes</string>
+</resources>

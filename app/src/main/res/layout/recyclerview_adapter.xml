@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/Relative_layout_height"
+    android:paddingLeft="@dimen/relative_padding_left"
+    android:paddingRight="@dimen/relative_padding_right"
+    android:paddingBottom="@dimen/relative_padding_bottom">
+
+    <ImageView
+        android:id="@+id/imageRecipeImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        />
+
+    <TextView
+        android:id="@+id/textViewRecipeName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/tv_padding"
+        android:gravity="center_vertical"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/title_textsize"
+        android:textStyle="bold"
+        android:background="#AAFFFFFF"
+        />
+
+    <TextView
+        android:id="@+id/textViewRecipeRank"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textSize="@dimen/social_textsize"
+        android:textColor="@android:color/white"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:background="#88FF0000"/>
+
+</RelativeLayout>
